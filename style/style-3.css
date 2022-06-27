@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+header{
+    background-color: white;
+    display: flex;
+    box-shadow: 1px 1px 1px grey;
+    margin-bottom: 40px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+.logo img{
+    height: 50px;
+    width: 100px;
+    margin-left: 10vw;
+}
+
+h1{
+    font-size: 36px;
+    color: #8b50fb;
+    margin-top: 10px;
+    margin: auto;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    margin-right: 10vw;
+    margin-top: 5px;
+}
+
+li{
+    font-size: 20px;
+    margin-left: 20px;
+    color: #8b50fb;
+    display: inline-block;
+}
+
+li:hover{
+    cursor:pointer;
+}
+
+.first-li{
+    margin-left: 0;
+}
+
+video{
+    border-radius: 5px;
+    margin-right: 40px;
+}
+
+.video{
+    width: 80vw;
+    display: flex;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+/*-------------------------- footer ----------------------*/
+
+footer{
+    box-shadow: -1px -1px 1px grey;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.left{
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+}
+.left .email{
+    color:#8b50fb;
+    font-size: 20px;
+    margin-left: 40px;
+    margin-top: 12px;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    margin-right: 10%;
+}
+.right h3{
+    color: #8b50fb;
+}
