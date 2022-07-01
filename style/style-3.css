@@ -7,13 +7,155 @@
     font-family: 'Nunito', sans-serif;
 }
 
-header{
-    background-color: white;
+/* main styling */
+
+h1, h2, h3 {
+    padding-bottom: 20px;
+}
+
+a {
+    color: #8b50fb;
+    text-decoration: none;
+}
+
+p {
+    margin: 10px 0;
+}
+
+/* utiliy */
+
+
+.container {
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+.text-primary {
+    color: #8b50fb;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 18px;
+    color: #8b50fb;
+    background: white;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #8b50fb;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
+.current {
+    font-weight: bold;
+}
+
+.flex-items {
     display: flex;
+    text-align: center;
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+}
+
+.flex-items > div {
+    padding: 20px;
+}
+
+/* header */
+
+
+header{
+    background-color: rgb(248, 214, 242);
     box-shadow: 1px 1px 1px grey;
-    margin-bottom: 40px;
     padding-bottom: 10px;
     padding-top: 20px;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul a:hover{
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+
+}
+
+/* home info */
+
+#home-info {
+    height: 100vh;
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../images/fundo-roxo2.jpg');
+}
+
+.homepage-content {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.homepage-content h3 {
+    margin-top: 70px;
+    margin-bottom: 100px;
+    text-justify:auto;
+    text-align: center;
+    color: white;
+} 
+
+.homepage-content h1 {
+    color: white;
+}
+
+/* conteúdos */
+
+#content {
+    padding: 30px;
+    height: 400px;
+}
+
+#content h2 {
+    text-align: center;
+    color: #410334;
+}
+
+#content .content-item {
+    padding: 30px;
+}
+
+#content h3 {
+    font-weight: bold;
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+}
+
+#content i {
+    color: white;
+    background-color: #8b50fb;
+    font-size: 1.5rem;
+    padding: 1rem;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+/* videos */
+
+
+#videos {
+    padding-top: 50px;
 }
 
 .logo img{
@@ -22,12 +164,7 @@ header{
     margin-left: 10vw;
 }
 
-h1{
-    font-size: 36px;
-    color: #8b50fb;
-    margin-top: 10px;
-    margin: auto;
-}
+
 
 ul{
     list-style-type: none;
@@ -76,6 +213,8 @@ footer{
     display: flex;
     justify-content: space-between;
     padding-bottom: 20px;
+    background-color: rgb(248, 214, 242);
+
 }
 .left{
     display: flex;
