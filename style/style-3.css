@@ -54,7 +54,7 @@ p {
 }
 
 .current {
-    font-weight: bold;
+    color: #410334;
 }
 
 .flex-items {
@@ -85,9 +85,9 @@ header nav{
     align-items: center;
 }
 
-header nav ul a:hover{
-    font-weight: bold;
-    transition: all 0.3s ease-in-out;
+header nav ul li:hover{
+    color: #410334;
+    transition: 0.3s ease-in-out;
 
 }
 
@@ -146,6 +146,11 @@ header nav h1{
     font-weight: bold;
     margin-bottom: 15px;
     font-size: 1.3rem;
+}
+
+#content h3:hover {
+    color: #410334;
+    transition: 0.3s ease-in-out;
 }
 
 #content i {

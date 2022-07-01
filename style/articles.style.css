@@ -23,9 +23,9 @@ header nav{
     align-items: center;
 }
 
-header nav ul a:hover{
-    font-weight: bold;
-    transition: all 0.3s ease-in-out;
+header nav ul li:hover{
+    color: #2a0077;
+    transition: 0.3s ease-in-out;
 }
 
 .logo img{
@@ -65,7 +65,7 @@ li:hover{
 /* Utility */
 
 .current {
-    font-weight: bold;
+    color: #2a0077;
 }
 
 /* Body */
