@@ -209,6 +209,7 @@ video{
     display: flex;
     margin: auto;
     margin-bottom: 40px;
+    border-bottom: 1px solid #410334;
 }
 
 h2{
