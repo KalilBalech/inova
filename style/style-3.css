@@ -91,6 +91,12 @@ header nav ul a:hover{
 
 }
 
+header nav h1{
+    font-size: 36px;
+    color: #8b50fb;
+    margin-top: 10px;
+}
+
 /* home info */
 
 #home-info {
