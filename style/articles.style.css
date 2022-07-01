@@ -107,6 +107,10 @@ li:hover{
     font-size: 18px;
     text-decoration: none;
 }
+
+.article a:hover{
+    color: #8b50fb;
+}
 /*-------------------------- footer ----------------------*/
 
 footer{
